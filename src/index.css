@@ -39,7 +39,7 @@ button {
   outline: none;
   appearance: none;
   border: 1px solid rgb(220, 209, 209);
-  transition: all .4s ease-out;
+  transition: all 0.4s ease-out;
 }
 
 button:hover {
@@ -59,10 +59,9 @@ button:hover {
   width: 26%;
 }
 
-.operators button{
+.operators button {
   flex: 1;
   background: rgb(239, 160, 12);
-  
 }
 
 .digits-numbers {
@@ -91,10 +90,6 @@ button:hover {
   display: flex;
   flex: 1;
   flex-direction: row-reverse;
-}
-
-.bottom-cal {
-  flex: 1 50%;
 }
 
 .bottom-cal button {
