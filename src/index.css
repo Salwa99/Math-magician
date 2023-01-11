@@ -8,6 +8,7 @@
 .App {
   display: flex;
   min-height: 100vh;
+  padding: 15px;
   align-items: center;
   justify-content: center;
 }
@@ -16,9 +17,15 @@
   width: 100%;
   max-width: 800px;
   background: rgb(251, 252, 247);
-  border-radius: 3px;
+  border-radius: 10px;
   overflow: hidden;
-  box-shadow: 0 4px 12px rgb(0 0 0 / 0.5);
+  box-shadow:
+    0 0 0.2rem #fff,
+    0 0 0.2rem #fff,
+    0 0 2rem #e6a20f,
+    0 0 0.4rem #e6a20f,
+    0 0 0.8rem #e6a20f,
+    inset 0 0 1.2rem #e6a20f;
 }
 
 .result {
