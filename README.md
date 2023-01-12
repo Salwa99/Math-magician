@@ -1,4 +1,4 @@
-# Math Magician
+# Math Magician 📟 🪄
 
 <div align="center">
 
@@ -9,7 +9,8 @@
 
 
 ## description
-
+An calculator application created with React. Users can perform basic operations such as addition, subtraction, multiplication, and division, as well as more advanced operations like modulo. The app also allows users to clear the current calculation and start anew.
+Used React components to create the user interface, and React {state,props}/hooks have been used to control the calculator's logic.  
 # 🛠 Built With
 ### Tech Stack:
 - React
@@ -19,7 +20,7 @@
 
 # 🚀 Live Demo <a name="live-demo"></a>
 
-[Math Magician 📖]()
+[Math Magician 📟 🪄](https://salwa99.github.io/Math-magician/)
 ### Server:
 - local.
 ### Database:
