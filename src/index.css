@@ -68,8 +68,8 @@
   54%,
   56%,
   100% {
-  text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #e65e10, 0 0 10px #ff8d00, 0 0 98px #ff6600;
-  color: #eeeae5;
+    text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #e65e10, 0 0 10px #ff8d00, 0 0 98px #f60;
+    color: #eeeae5;
   }
 }
 
