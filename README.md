@@ -1,4 +1,4 @@
-# Math Magician
+# Math Magician 📟
 
 <div align="center">
 
@@ -19,7 +19,7 @@
 
 # 🚀 Live Demo <a name="live-demo"></a>
 
-[Math Magician 📖]()
+[Math Magician 📟](https://salwa99.github.io/Math-magician/)
 ### Server:
 - local.
 ### Database:

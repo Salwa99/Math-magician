@@ -7,15 +7,39 @@
 
 .App {
   display: flex;
+  flex-direction: column;
   min-height: 100vh;
   padding: 15px;
   align-items: center;
   justify-content: center;
 }
 
+.title {
+  padding: 5%;
+  width: 100%;
+  max-width: 800px;
+}
+
+.title h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  letter-spacing: 5px;
+  text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #df6219, 0 0 10px #ff8d00, 0 0 98px #df6219;
+  color: #fff6a9;
+  animation: blink 12s infinite;
+  -webkit-animation: blink 10s infinite;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    background-color: rgb(19, 178, 184);
+  }
+}
+
 .calculator {
   width: 100%;
   max-width: 800px;
+  margin-top: 5%;
   background: rgb(251, 252, 247);
   border-radius: 10px;
   overflow: hidden;
@@ -26,6 +50,27 @@
     0 0 0.4rem #e6a20f,
     0 0 0.8rem #e6a20f,
     inset 0 0 1.2rem #e6a20f;
+}
+
+@keyframes blink {
+  20%,
+  24%,
+  55% {
+    color: rgb(238, 184, 5);
+    text-shadow: none;
+  }
+
+  0%,
+  19%,
+  21%,
+  23%,
+  25%,
+  54%,
+  56%,
+  100% {
+  text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #e65e10, 0 0 10px #ff8d00, 0 0 98px #ff6600;
+  color: #eeeae5;
+  }
 }
 
 .result {
