@@ -1,7 +1,6 @@
 import { useState } from 'react';
-import calculate from './logic/calculate';
+import calculate from '../logic/calculate';
 // eslint-disable-next-line
-
 export default function MathMagicianApp() {
   const [state, setState] = useState({
     total: null,
@@ -21,8 +20,8 @@ export default function MathMagicianApp() {
 
   return (
     <div className="App">
-      <div className="title">
-        <h1>Math Magician Calculator</h1>
+      <div className="title-math">
+        <h2>Let&apos;s do some math!</h2>
       </div>
 
       <div className="calculator">
