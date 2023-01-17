@@ -5,29 +5,121 @@
   font-family: sans-serif;
 }
 
+body {
+  background-color: #fff6a9;
+  font-family: Georgia, sans-serif;
+}
+
 .App {
   display: flex;
-  flex-direction: column;
   min-height: 100vh;
-  padding: 15px;
-  align-items: center;
-  justify-content: center;
+  padding: 2% 5%;
+  justify-content: space-between;
+  align-items: baseline;
 }
 
 .title {
-  padding: 5%;
   width: 100%;
   max-width: 800px;
-}
-
-.title h1 {
-  text-align: center;
   font-size: 2.5rem;
   letter-spacing: 5px;
   text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #df6219, 0 0 10px #ff8d00, 0 0 98px #df6219;
   color: #fff6a9;
   animation: blink 12s infinite;
   -webkit-animation: blink 10s infinite;
+}
+
+.home_page {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.home_page h2 {
+  width: 60%;
+  padding: 5%;
+  font-size: 2.3rem;
+}
+
+.home_page p {
+  width: 80%;
+  line-height: 35px;
+  letter-spacing: 2px;
+  text-align: start;
+  align-self: center;
+  color: rgb(39, 32, 22);
+  font-size: 1.6rem;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  padding: 3%;
+}
+
+nav .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2%;
+}
+
+.header ul {
+  display: flex;
+  gap: 1.1em;
+  list-style: none;
+}
+
+.header li a {
+  padding: 5px 10px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #e6662b;
+  border-left: 2px solid #e6662b;
+}
+
+.header li .no-border {
+  border-left: none;
+}
+
+.header li a:hover {
+  background-color: #f5b02f;
+  color: #eeeae5;
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+
+.quote {
+  height: 250px;
+  margin: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote p {
+  padding: 3%;
+  text-align: center;
+  color: rgb(116, 111, 111);
+  font-size: 2rem;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+.quote p,
+.home_page p {
+  box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+}
+
+.title-math,
+.home_page h2 {
+  color: rgb(231, 110, 30);
+  font-size: 2.2rem;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
 }
 
 @media only screen and (max-width: 768px) {
@@ -41,7 +133,9 @@
 }
 
 .calculator {
-  width: 100%;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
   max-width: 800px;
   margin-top: 5%;
   background: rgb(251, 252, 247);
@@ -161,4 +255,19 @@ button:hover {
   display: flex;
   flex-direction: column;
   flex: 1;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  border-top: 2px solid rgb(236, 181, 17);
+}
+
+.footer p {
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 1%;
+  letter-spacing: 4px;
 }
