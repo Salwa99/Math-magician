@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders when there is welcome sentence 1`] = `
+<div>
+  <div />
+  <div
+    className="home_page"
+  >
+    <h2>
+      Welcome to our page!
+    </h2>
+    <p>
+      Arithmetic is the branch of mathematics that deals with numbers and their operations, such as addition, subtraction, multiplication, and division. The history of arithmetic can be traced back to ancient civilizations, where early forms of counting and calculation were used for practical purposes such as trade and measurement. The earliest known evidence of arithmetic comes from ancient Sumer and Egypt. The ancient Greeks, Chinese, Indian and Islamic mathematicians also contributed to the development of arithmetic. In the 15th century, the Italian mathematician Fibonacci introduced the Hindu-Arabic numeral system to Europe, which replaced the Roman numeral system and made arithmetic calculations more efficient. Today, arithmetic is widely used in many areas of science, engineering, and everyday life.
+    </p>
+  </div>
+</div>
+`;

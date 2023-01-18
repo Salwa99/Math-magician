@@ -8,9 +8,9 @@
 </div>
 
 
-## description
-An calculator application created with React. Users can perform basic operations such as addition, subtraction, multiplication, and division, as well as more advanced operations like modulo. The app also allows users to clear the current calculation and start anew.
-Used React components to create the user interface, and React {state,props}/hooks have been used to control the calculator's logic.  
+## Description
+**An calculator application created with React. Users can perform basic operations such as addition, subtraction, multiplication, and division, as well as more advanced operations like modulo. The app also allows users to clear the current calculation and start anew.
+Used React components to create the user interface, and React {state,props}/hooks have been used to control the calculator's logic.** 
 # 🛠 Built With
 ### Tech Stack:
 - React
@@ -52,16 +52,39 @@ Used React components to create the user interface, and React {state,props}/hook
 
 # Usage:
 ### To run the project, execute the following command:
-- git https://github.com/Salwa99/Math-magician.git
-- cd math-magician
-- npm install
-- npm start
+  ```sh 
+  git clone https://github.com/Salwa99/Math-magician.git
+  ```
+  ```sh 
+  cd math-magician
+  ```
+  ```sh 
+  npm install
+  ```
+  ```sh 
+  npm start
+  ```
 
 
 # Run tests:
+
+  ```sh 
+  npm install react-test-renderer --save-dev
+  ```
+  ```sh 
+  npm install --save-dev @testing-library/react
+  ```
+  ```sh 
+  npm run test
+  ```
 ### To run tests, run the following command:
-- npx eslint .
-- npx stylelint "**/*.{css,scss}"
+  ```sh 
+  npx eslint .
+  ```
+   ```sh 
+  npx stylelint "**/*.{css,scss}
+  ```
+
 
 # Deployment:
 ### You can deploy this project using:
@@ -96,4 +119,4 @@ I would like to thank Microverse team for this journey.
 - It's not available for now I'm still working on it, once it's available I'll update this answer.
 
 # 📝 License:
-This project is MIT licensed.
+This project is [MIT](./LICENSE) licensed.
