@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders when there is quote 1`] = `
+<div
+  className="quote"
+>
+  <p>
+    "Mathematics is the music of reason." James Joseph Sylvester 
+  </p>
+</div>
+`;

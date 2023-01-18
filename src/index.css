@@ -5,6 +5,10 @@
   font-family: sans-serif;
 }
 
+html {
+  height: 100%;
+}
+
 body {
   background-color: #fff6a9;
   font-family: Georgia, sans-serif;
@@ -117,19 +121,9 @@ nav .header {
 .title-math,
 .home_page h2 {
   color: rgb(231, 110, 30);
-  font-size: 2.2rem;
+  font-size: 2rem;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
-}
-
-@media only screen and (max-width: 768px) {
-  body {
-    background-color: rgb(19, 178, 184);
-  }
-
-  .title h1 {
-    font-size: 1.5rem;
-  }
 }
 
 .calculator {
@@ -261,13 +255,57 @@ button:hover {
   position: fixed;
   bottom: 0;
   left: 0;
-  width: 100%;
+  right: 0;
+  height: 50px;
   border-top: 2px solid rgb(236, 181, 17);
 }
 
 .footer p {
+  padding: 1%;
   text-align: center;
   font-size: 1.2rem;
-  padding: 1%;
   letter-spacing: 4px;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    background-color: rgb(11, 219, 202);
+  }
+
+  .title {
+    font-size: 1rem;
+  }
+
+  .header li a {
+    font-size: 0.6rem;
+  }
+
+  .title-math,
+  .home_page h2 {
+    font-size: 1.5rem;
+    width: 100%;
+  }
+
+  .home_page p,
+  .quote p {
+    letter-spacing: normal;
+    line-height: normal;
+    font-size: 1.1rem;
+    width: 90%;
+  }
+
+  .App {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .calculator {
+    width: 100%;
+  }
+
+  .footer p {
+    font-size: 0.9rem;
+  }
 }
