@@ -20,7 +20,7 @@ Used React components to create the user interface, and React {state,props}/hook
 
 # 🚀 Live Demo <a name="live-demo"></a>
 
-[Math Magician 📟 🪄](https://calculator-mltp.onrender.com)
+[Math Magician 📟 🪄](https://math-magician-l0lrajhck-salwa99.vercel.app/)
 ### Server:
 - local.
 ### Database:
